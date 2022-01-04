@@ -1,0 +1,40 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    margin: 0;
+}
+section{
+    display: flex;
+}
+p{
+    font-size: 24px;
+}
+h1{
+    font-size: 50px;
+}
+h3{
+    font-size: 30px;
+}
+span{
+    color: orange;
+}
+.half-width{
+    width: 50%;
+    margin: 50px;
+}
+.half-width img{
+  width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-color: orange;
+    padding: 5px 40px;
+    background-image: -o-linear-gradient(orange, rgb(230, 230, 233));
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
