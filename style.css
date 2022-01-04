@@ -5,6 +5,7 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 p{
     font-size: 24px;
@@ -19,11 +20,13 @@ span{
     color: orange;
 }
 .half-width{
-    width: 50%;
-    margin: 50px;
+    width: 80%;
+    margin: 60px;
+    border-radius: 20px;
+    
 }
 .half-width img{
-  width: 80%;
+  width: 85%;
 }
 .link-button{
     text-decoration: none;
@@ -37,4 +40,10 @@ span{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.deram-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    border-top: 100px;
 }
